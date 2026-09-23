@@ -1,0 +1,28 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+
+# Training outputs
+outputs/
+results/
+*.log
+
+# IDE
+.vscode/
+.idea/
+.qoder/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Dataset images: keep only the folder skeleton (.gitkeep) and meta.json
+dataset/**/*.png
+dataset/**/*.jpg
+dataset/**/*.JPG
+dataset/**/*.bmp
+dataset/**/*.tif
+dataset/**/*.tiff
+dataset/**/*.npy
