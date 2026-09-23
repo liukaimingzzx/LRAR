@@ -136,3 +136,6 @@ If you find this repository useful, please consider citing our work:
   publisher={Elsevier}
 }
 ```
+
+## License
+The code in this repository is licensed under the [MIT license](https://mit-license.org/).
