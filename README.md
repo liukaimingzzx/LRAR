@@ -23,7 +23,7 @@ This repository supports training and evaluation on four benchmarks: **MVTec**, 
 ### Environment Setup
 ```bash
 # python 3.10+, torch with CUDA (developed with torch 2.1.1+cu118)
-git clone https://github.com/<your-account>/LRAR.git
+git clone https://github.com/liukaimingzzx/LRAR.git
 cd LRAR
 pip install -r requirements.txt
 ```
