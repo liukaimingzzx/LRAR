@@ -29,7 +29,7 @@ pip install -r requirements.txt
 ```
 
 ### Dataset Preparation
-1. Download the four benchmarks: [MVTecAD](https://www.mvtec.com/de/unternehmen/forschung/datasets/mvtec-ad/), [VisA](https://amazon-visual-anomaly.s3.us-west-2.amazonaws.com/VisA_20220922.tar), [BraTS](https://www.kaggle.com/datasets/dschettler8854/brats-2021-task1) and [BUSI](https://www.kaggle.com/datasets/aryashah2k/breast-ultrasound-images-dataset).
+1. Download the four benchmarks: [MVTecAD](https://www.mvtec.com/de/unternehmen/forschung/datasets/mvtec-ad/), [VisA](https://amazon-visual-anomaly.s3.us-west-2.amazonaws.com/VisA_20220922.tar), [BraTS](https://www.kaggle.com/datasets/dschettler8845/brats-2021-task1) and [BUSI](https://www.kaggle.com/datasets/aryashah2k/breast-ultrasound-images-dataset).
 2. Organize each dataset in the MVTecAD-style folder structure:
    ```
    /path/to/dataset
