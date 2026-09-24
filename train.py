@@ -72,7 +72,7 @@ if __name__ == '__main__':
     parser.add_argument('--port', type=str, default='1234', help='number of cpu threads to use during batch generation')
     
     parser.add_argument("--backbone_name", type=str, default='dinov2_vits14', help="the name of encoder")
-    parser.add_argument("--num_learnable_proxies", type=int, default=3, help="number of learnable queries")
+    parser.add_argument("--num_learnable_proxies", type=int, default=25, help="number of learnable queries")
     parser.add_argument("--n_shot", type=int, default=1, help="number of normal samples")
     parser.add_argument("--a_shot", type=int, default=1, help="number of abnormal samples")
 
@@ -82,7 +82,7 @@ if __name__ == '__main__':
     parser.add_argument("--image_size", type=int, default=512, help="image size")
     parser.add_argument("--print_freq", type=int, default=50, help="print frequency")
     parser.add_argument("--save_freq", type=int, default=1, help="save frequency")
-    parser.add_argument("--seed", type=int, default=111, help="random seed")
+    parser.add_argument("--seed", type=int, default=42, help="random seed") 
 
     # Ablation switches
     parser.add_argument("--use_pcl", type=int, default=1, choices=[0, 1], help="enable Proxy Contrastive Loss (1=on, 0=off)")

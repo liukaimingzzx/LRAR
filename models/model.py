@@ -66,7 +66,7 @@ class LRAR(nn.Module):
         self.dice_loss = DiceLoss()
 
         # contra loss hyper-params
-        self.contra_temperature = getattr(args, "contra_temperature", 1)#MVTec单数据集为0.05
+        self.contra_temperature = getattr(args, "contra_temperature", 1)
         self.contra_weight = getattr(args, "contra_weight", 1)
 
         # suppression loss hyper-param nrs模块的权重
